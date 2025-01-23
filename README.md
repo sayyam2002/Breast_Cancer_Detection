@@ -7,13 +7,13 @@
  * Objective: To accurately classify benign and malignant tumors based on features extracted from the dataset.
 ## Key Steps:
  * Data Preprocessing:
-    Handle missing values (if any).
-    Normalize or standardize features for optimal model performance.
-    Split data into training and testing sets.
+   a. Handle missing values (if any).
+   b. Performing simple EDA
+   c. Split data into training and testing sets.
    
  * Model Training:
-    Train an SVC model on the training data.
+   a. Train an SVC model on the training data.
    
  * Model Evaluation:
-    Evaluate the trained model's performance on the testing data using metrics such as accuracy, precision, recall, and F1-score.
-    Generate a confusion matrix to visualize the model's classification accuracy.
+   a. Evaluate the trained model's performance on the testing data using metrics such as accuracy, precision, recall, and F1-score.
+   b. Generate a confusion matrix to visualize the model's classification accuracy.
